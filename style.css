@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+.box{
+    display: flex;
+    background-color: hsl(216, 50%, 16%);
+    height: 40rem;
+    width: 25rem;
+    border-radius: 1rem;
+    flex-direction: column;
+    box-shadow: 0 0px 50px rgba(0, 0, 0,0.7);
+}
+
+.nft-img{
+    width:22rem;
+    height:22rem;
+    margin: 1.5rem;
+    display: flex;
+}
+
+.div-image{
+    width:22rem;
+    height:22rem;
+    position: relative;
+}
+
+.div-overlay{
+    width:22rem;
+    height:22rem;
+    position: absolute;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.div-overlay:hover{
+    background-color: hsla(178, 100%, 50%, 0.5);
+    background-image: url(./images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nft-image{
+    width:22rem;
+    height:22rem;
+    border-radius: 1rem;
+}
+
+.heading{
+    margin-left: 1.5rem;
+    cursor:pointer;
+}
+
+.heading p:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+.heading p {
+    margin:0;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color:white;
+}
+
+.summary{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.summary p{
+    margin:0;
+    font-weight: 300;
+    font-size: 1.2rem;
+    word-spacing: 2px;
+    color:hsl(215, 51%, 70%);
+}
+
+.price--time-left{
+    display: grid;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.price{
+    grid-column: 1/2;
+    display: flex;
+    color:hsl(178, 100%, 50%);
+}
+
+.price p{
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.time-left{
+    grid-column:2/2;
+    display: flex;
+    color:hsl(215, 51%, 70%);
+    justify-content: right;
+}
+
+.time-left p{
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+hr{
+    width: 90%;
+    border: none;
+    height: 1px;
+    background-color: hsl(215, 51%, 70%);
+}
+
+.creator-profile{
+    display:flex;
+}
+
+.profile-pic{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 0.5rem;
+    width:2rem;
+}
+
+.pic-changes{
+    width:2rem;
+    border: 1px solid white;
+    border-radius: 1000px;
+}
+
+.light-text{
+    font-size: 1rem;
+    font-weight:400;
+    color:hsl(215, 51%, 70%);
+}
+
+.solid-name{
+    color:white;
+    cursor: pointer;
+}
+
+.solid-name:hover{
+    color: hsl(178, 100%, 50%);
+}
